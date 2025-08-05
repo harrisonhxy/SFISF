@@ -1,0 +1,46 @@
+# ===================================================================
+#  .gitignore for a Python Data Analysis Project
+# ===================================================================
+
+# 1. Python anaconda, venv, pyc, build files and so on
+# 忽略 Python 编译产生的字节码文件和缓存目录
+__pycache__/
+*.py[cod]
+*class java.lang.String
+
+# 忽略虚拟环境目录 (common names)
+venv/
+.venv/
+env/
+.env
+
+# 忽略打包和分发产生的文件
+build/
+dist/
+*.egg-info/
+
+# 2. IDE / Editor specific files
+# 忽略IDE和编辑器相关的配置文件
+.idea/
+.vscode/
+
+# 3. OS specific files
+# 忽略 macOS 系统自动生成的文件
+.DS_Store
+
+# 4. Project specific files
+# ===================================================================
+# 忽略用户指定的目录和文件
+
+# 忽略Jupyter Notebook的检查点文件
+.ipynb_checkpoints
+
+# 忽略包含敏感信息（如API密钥、密码）的本地配置文件
+*.env
+.env.*
+
+# 注意：这会忽略 data/ 目录下的所有文件，包括 brokers.json
+data/
+
+# 忽略所有输出文件
+output/
