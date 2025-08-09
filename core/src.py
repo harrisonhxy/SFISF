@@ -7,7 +7,7 @@ Introduction:
 import os
 
 from conf import settings
-from core.process_data import *
+from core.utils import *
 
 BROKER_DIC = os.path.join(settings.DATA_DIR, "brokers.json")
 IPO_DATA = os.path.join(settings.DATA_DIR, "IPO承销商全部A股.xlsx")
